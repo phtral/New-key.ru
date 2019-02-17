@@ -237,6 +237,9 @@ p.footer__social_icons a:hover {
  Media
 -------------------------------*/
 @media (max-width: 1160px) {
+    .down {
+        bottom: 175px;
+    }
     .navbar{
         width: 100%;
         background-color: #fac370;
