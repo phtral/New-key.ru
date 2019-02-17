@@ -129,7 +129,7 @@ Grid
     float: left;
 }
 .col-4:last-child{
-    margin-right: 0px;
+    margin-right: 0;
 }
 /*-----------------------------
 header
@@ -145,7 +145,6 @@ header
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: top;
     position: relative;
  }
 .header__title{
@@ -164,15 +163,16 @@ header
 .header__arrow{
     font-size: 48px;
     width: 60px;
-    height: : 50px;
+    height: 50px;
     margin-left: -30px;
     position: absolute;
     bottom: 30px;
     left: 50%;
 }
 .down {
-	button: 20px;
-    color:#ffffff;
+    position: relative;
+    bottom: 30px;
+	color: #fff;
 }
 a.down:hover{
     color: #FFE400;
@@ -188,7 +188,7 @@ content
    text-align: center;
  }
 .content{
-    padding-top: 0px;
+    padding-top: 0;
     padding-bottom: 50px;
     background-color: #fac370;
     color: black;
@@ -203,7 +203,7 @@ footer
     padding-bottom: 90px;
 }
 .footer p{
-    margin-top: 0px;
+    margin-top: 0;
     margin-bottom: 15px;
 }
 p.footer__name{
@@ -222,7 +222,7 @@ p.footer__social_icons a{
     margin-right: 30px;
     }
 p.footer__social_icons a:last-child{
-    margin-right: 0px;
+    margin-right: 0;
 }
 p.footer__social_icons a:hover {
     color: #FFE400;
@@ -231,7 +231,7 @@ p.footer__social_icons a:hover {
     color: #FF6E00;
     font-size: 10px;
     width: 130px;
-    height: : 10px;
+    height: 10px;
      }
 /*-----------------------------
  Media
@@ -247,13 +247,11 @@ p.footer__social_icons a:hover {
 
 
     .navbar li{
-        display: flex;
         display: block;
         background-color: #5B362D;
-        /*height: 50px;*/
         transition: 0.9s ease-out;
         text-align:  center;
-        box-shadow: 0px 5px;
+        box-shadow: 0 5px;
         height: 7vh;
          }
     .navbar a{
@@ -267,7 +265,7 @@ p.footer__social_icons a:hover {
     }
     .navbar li:hover{
         background-color: #55322B;
-        box-shadow: 0px  3px;
+        box-shadow: 0  3px;
     }
 
 .bar1, .bar2, .bar3 {
@@ -322,7 +320,7 @@ p.footer__social_icons a:hover {
         line-height: 38px;
         }
     .content {
-        padding-top: 0px;
+        padding-top: 0;
         padding-bottom: 40px;
         }
     .title{
