@@ -150,13 +150,27 @@ header
     background-position: center;
     background-size: cover;
     height: 100vh;
-    color: #ffffff;
+    color: #fff;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
     position: relative;
  }
+.header1{
+    background-image: url("../img/bg/header.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+
+}
 .header__title{
     font-size: 88px;
 	margin-bottom: 30px;
