@@ -18,3 +18,6 @@ function burgerMenu(icon) {
   $('#menu').toggle();
 }
 
+$(document).ready(function(){
+    $("a.photo").fancybox();
+});
