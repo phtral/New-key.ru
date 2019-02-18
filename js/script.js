@@ -19,5 +19,18 @@ function burgerMenu(icon) {
 }
 
 $(document).ready(function(){
-    $("a.photo").fancybox();
+    $("a.photo").fancybox({
+        transitionIn: 'elastic',
+        transitionOut: 'elastic',
+        speedIn: 555,
+        speedOut: 555,
+        hideOnOverlayClick: false,
+        titlePosition: 'over'
+    });
+
 });
+
+
+
+
+
