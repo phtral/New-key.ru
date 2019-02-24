@@ -1,0 +1,22 @@
+{
+  "name": "New-key.ru",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phtral/New-key.ru.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/phtral/New-key.ru/issues"
+  },
+  "homepage": "https://github.com/phtral/New-key.ru#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {}
+}
